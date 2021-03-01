@@ -8,7 +8,7 @@ public class DemoController {
 
     @RequestMapping(path = "/test")
     public String test() {
-        return "Hello there";
+        return "Hello there! General Kenobi!";
     }
 
 
