@@ -37,7 +37,7 @@ class DemoApplicationTests {
 
         String data = result.getResponse().getContentAsString();
         System.out.println(data);
-        assertThat(data).isEqualTo("Hello there");
+        assertThat(data).isEqualTo("Hello there! General Kenobi!");
     }
 
 }
